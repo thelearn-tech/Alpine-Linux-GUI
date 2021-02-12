@@ -106,9 +106,55 @@ namesever 8.8.8.8
 
 After rebooting test if **fireefox** iss working by searching someting like **www.github.com**
 
+# audio
+
+For audio u can download **cmus** ,**gnome** , **MPV**
+
+
+**apk add cmus**
+
+**apk add gnome**  
+
+**apk add mpv**
+
+
+**No Sound Troubleshooting**
+
+If you have no sound out that means there is no audio engine
+
+**apk add pulseaudio**
+
+**apk add alsa-utils alsa-utils-doc**
+
+**apk add alsa-lib alsaconf**
+
+**alsamixer**
+
+**Esc** (press **Esc** key**
+
+**rc-service alsa start**
+
+**rc-update add alsa**
+
+**reboot**
+
+
 # Commands 
+
+**note**:-you need to be **root** to install programs 
+
+
 **poweroff**
 (will turn of your PC)
 
 **reboot** 
 (will reboot your PC)
+
+
+**rebooting** PC usualy solves alot of problems.
+
+report problems and for more solution on
+Alpine Linux [Discussion page](https://github.com/thelearn-tech/Alpine-Linux-GUI/discussion)
+
+I may be late to reply but i  will reply
+
