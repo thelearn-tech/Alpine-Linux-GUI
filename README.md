@@ -36,6 +36,9 @@ How to install GUI on Alpine Linux
 
 **rc-service lightdm start**
 
+
+
+
 as soon as you type **rc-service lightdm start** gui will start
 
 and **login** promt will appear in login you will see ***Linux user*** and ***other..***
@@ -71,6 +74,9 @@ i will recommend **Firefox** as its light weight
 
 **apk add firefox-esr**
 
+
+
+
 Now if u get ***server not found*** error in **Firefox**
 
 You need to configure your DNS
@@ -104,7 +110,7 @@ namesever 8.8.8.8
 
 **reboot**
 
-After rebooting test if **fireefox** iss working by searching someting like **www.github.com**
+After rebooting test if **firefox** iss working by searching someting like **www.github.com**
 
 # audio
 
@@ -118,9 +124,14 @@ For audio u can download **cmus** ,**gnome** , **MPV**
 **apk add mpv**
 
 
+
+
 **No Sound Troubleshooting**
 
+
 If you have no sound out that means there is no audio engine
+
+
 
 **apk add pulseaudio**
 
@@ -130,7 +141,7 @@ If you have no sound out that means there is no audio engine
 
 **alsamixer**
 
-**Esc** (press **Esc** key**
+**Esc** (press **Esc** key)
 
 **rc-service alsa start**
 
@@ -154,7 +165,7 @@ If you have no sound out that means there is no audio engine
 **rebooting** PC usualy solves alot of problems.
 
 report problems and for more solution on
-Alpine Linux [Discussion page](https://github.com/thelearn-tech/Alpine-Linux-GUI/discussion)
+Alpine Linux  visit [Discussion page](https://github.com/thelearn-tech/Alpine-Linux-GUI/discussion)
 
 I may be late to reply but i  will reply
 
