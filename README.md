@@ -31,7 +31,8 @@ How to install GUI on Alpine Linux
 
 **rc-update add lightdm**
 
-**adduser >username<**
+**adduser >username<**   
+(example **adduser pb** , **adduser thelearn-tech**)
 
 **rc-service lightdm start**
 
@@ -39,7 +40,7 @@ as soon as you type **rc-service lightdm start** gui will start
 
 and **login** promt will appear in login you will see ***Linux user*** and ***other..***
 
-**login as** ***other..*** with the user name and password you set with ***adduser username***
+**login as** ***other..*** with the user name and password you set with ***adduser***
 and enter ,now you will be in gui 
 
 **As** you have login as user not root 
@@ -47,6 +48,22 @@ open terminal and type **su**
 enter root password 
 now you are **root**
 and you can install use all stuff as root
+
+
+when screensaver comes on press **space key** and in **linux user** give password **root**
+or press **switch user** and login as **other** giving **username** and **password**
+
+This was the first boot  
+from now you can login as **Linux User** with password **root**
+but it will be slow to load desktop enviroment
+and in generall experience will be **slow**
+
+**So** i will recommend you to login as **other**
+expreance will be faster than if u login as **Linux User**
+
+***NOTE***:- If you login as **Linux User** on screensaver
+your **Experience will be same**
+
 
 # Browser
 
@@ -79,11 +96,19 @@ namesever 8.8.8.8
 
 ![](https://raw.githubusercontent.com/thelearn-tech/Alpine-Linux-GUI/main/IMG_20210211_143854.jpg)
 
-**ctrl + x**
+**ctrl + x**  (to save changes)
 
-**y**
+**y** (for yes)
 
-**enter**
+**enter**(hit enter key)
 
 **reboot**
+
 After rebooting test if **fireefox** iss working by searching someting like **www.github.com**
+
+# Commands 
+**poweroff**
+(will turn of your PC)
+
+**reboot** 
+(will reboot your PC)
