@@ -3,6 +3,8 @@ How to install GUI on Alpine Linux
 
 # Installation
 
+**setup-xorg-base**
+
 **apk add xf86-video-vesa**
 
 **apk add xf86-input-mouse**
