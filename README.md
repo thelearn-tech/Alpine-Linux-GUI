@@ -97,9 +97,10 @@ open **terminal**
 ![](https://raw.githubusercontent.com/thelearn-tech/Alpine-Linux-GUI/main/IMG_20210211_144126.jpg)
 
 
-change nameserver 192.168.42.123
+change `nameserver 192.168.42.123`
  to
-namesever 8.8.8.8
+`namesever 8.8.8.8` (Google)
+`namesever 1.1.1.1` (Cloudflare)
 ![](https://raw.githubusercontent.com/thelearn-tech/Alpine-Linux-GUI/main/IMG_20210211_143918.jpg)
 
 ![](https://raw.githubusercontent.com/thelearn-tech/Alpine-Linux-GUI/main/IMG_20210211_143854.jpg)
